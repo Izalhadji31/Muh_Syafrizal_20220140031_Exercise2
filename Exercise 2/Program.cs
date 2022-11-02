@@ -8,8 +8,8 @@ namespace Exercise_2
 {
     class Program
     {
-        // Deklrasi array int dengan ukuran 20
-        private int[] a = new int[20];
+        // Deklrasi array int dengan ukuran 31
+        private int[] a = new int[31];
 
         // Deklarasi Variabel int untuk menyimpan banyaknya data pada array
         private int n;
