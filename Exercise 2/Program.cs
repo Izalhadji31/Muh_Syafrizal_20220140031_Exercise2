@@ -59,15 +59,15 @@ namespace Exercise_2
             for (int i = 0; i < n; i++) // for n - 1 passes
             {
               // pada pass i, bandingkan n - i elemen pertama dengan elemen selanjutnya
-              for (int j = 0; j < n - i; j++)
+              for (int ms = 0; ms < n - i; ms++)
                 {
-                    if (a[j] < a[j+1]) // jika elemen tidak dalam urutan yang benar
+                    if (a[ms] < a[ms+1]) // jika elemen tidak dalam urutan yang benar
                     {
                         // Tukar elemen
                         int temp;
-                        temp = a[j];
-                        a[j] = a[j+1];
-                        a[j+1] = temp;
+                        temp = a[ms];
+                        a[ms] = a[ms+1];
+                        a[ms+1] = temp;
                     }
                 }
             }
